@@ -56,7 +56,7 @@ def typeDefinitions() {
         ],
         [
         	id: "colorTemperature",
-        	type: "colorTemperature", 
+        	type: "switch", 
             singular: "Color Temperature Light", 
             plural: "Color Temperature Lights", 
             groupDeviceType: "Color Temperature Light Group Device",
