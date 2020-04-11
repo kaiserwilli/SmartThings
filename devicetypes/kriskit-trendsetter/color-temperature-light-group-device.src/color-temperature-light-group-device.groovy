@@ -206,7 +206,7 @@ def setLevel(val, triggerGroup) {
     if (triggerGroup) {
        if (val == 0)
     	   off()
-       else
+       if (val == 100)
     	   on()
     }
         
